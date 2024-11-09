@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=VT323&display=swap');
+
+
+body {
+  text-align: center;
+  background-color: #19031a;;
+}
+
+#level-title {
+  font-family: "VT323", monospace;
+  font-size: 3rem;
+  margin: 5%;
+  color: #0500ff;
+  -webkit-text-stroke: 0.000001px #fff;
+  border: 1px solid #fff;
+  padding: 20px;
+  width: 314px;
+  margin: 85px auto;
+}
+
+#level-title:hover {
+  background: #00ffa82b;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid#0f192d9e;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+@media (max-width: 1200px) {
+
+.container {
+    display: flex;
+    width: 507px;
+    margin: 60px auto 0;
+}
+
+#level-title {
+  line-height: 73px;
+  font-size: 2.5rem;
+}
+.btn {
+  height: 180px;
+    width: 180px;
+}
+
+}
+
+@media (max-width: 650px) {
+
+  .container {
+    width: 501px;
+}
+
+.btn {
+  height: 150px;
+  width: 150px;
+}
+
+#level-title {
+  font-size: 2rem;
+ }
+
+}
+@media (max-width: 650px) {
+  .btn {
+     margin: 20px 0 0 0 ; 
+  }
+
+  .container {
+    width: 366px;
+    gap: 25px;
+  }
+}
+
+@media (max-width: 412px) {
+  .btn {
+      height: 100px;
+      width: 100px;
+    }
+    #level-title {
+      font-size: 28px;
+    }
+    .container {
+      width: 280px;
+    }
+}
